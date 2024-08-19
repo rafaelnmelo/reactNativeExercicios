@@ -1,4 +1,6 @@
 import React from "react"
-import { Text } from "react-native"
+import { SafeAreaView } from "react-native"
 
-export default () => <Text>Primeiro Componente!</Text>
+import Primeiro from './components/Primeiro'
+
+export default () => <SafeAreaView><Primeiro></Primeiro></SafeAreaView>

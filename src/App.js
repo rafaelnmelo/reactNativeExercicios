@@ -7,13 +7,15 @@ import { SafeAreaView, StyleSheet } from "react-native"
 // import Aleatorio from './components/Aleatorio'
 // import Titulo from './components/Titulo'
 // import Botao from './components/Botao'
-import Contador from './components/Contador'
+// import Contador from './components/Contador'
+import Pai from "./components/direta/Pai"
 
 export default () => (
     <SafeAreaView style={style.App}>
+        <Pai />
+        {/* <Botao />
         <Contador inicial={100} passo={7}/>
         <Contador />
-        {/* <Botao />
         <Titulo principal="Cadastro" secundario="Cadastre seu Produto"/>
         <Aleatorio min={10} max={25}/>
         <MinMax min={3} max={20}/>

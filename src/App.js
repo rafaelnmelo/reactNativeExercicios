@@ -20,12 +20,14 @@ import { SafeAreaView, StyleSheet } from "react-native"
 // import DigiteSeuNome from "./components/DigiteSeuNome"
 // import Quadrado from "./components/layout/Quadrado"
 // import FlexBoxV1 from "./components/layout/FlexBoxV1"
-import FlexBoxV2 from "./components/layout/FlexBoxV2"
+// import FlexBoxV2 from "./components/layout/FlexBoxV2"
+import FlexBoxV3 from "./components/layout/FlexBoxV3"
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <FlexBoxV2 />
+        <FlexBoxV3 />
         {/* <Botao />
+        <FlexBoxV2 />
         <FlexBoxV1 />
         <Quadrado />
         <Quadrado color='#F00'/>

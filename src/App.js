@@ -22,12 +22,14 @@ import { SafeAreaView, StyleSheet } from "react-native"
 // import FlexBoxV1 from "./components/layout/FlexBoxV1"
 // import FlexBoxV2 from "./components/layout/FlexBoxV2"
 // import FlexBoxV3 from "./components/layout/FlexBoxV3"
-import FlexBoxV4 from "./components/layout/FlexBoxV4"
+// import FlexBoxV4 from "./components/layout/FlexBoxV4"
+import Mega from "./components/mega/Mega"
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <FlexBoxV4 />
+        <Mega />
         {/* <Botao />
+        <FlexBoxV4 />
         <FlexBoxV3 />
         <FlexBoxV2 />
         <FlexBoxV1 />
